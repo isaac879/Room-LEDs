@@ -11,11 +11,10 @@
  * 
  * Code written by isaac879
  * 
- * Last modified 03/04/2019
+ * Last modified 10/01/2020
  *--------------------------------------------------------------------------------------------------------------------------------------------------------*/
-//TODO: eeprom: mode, hue, sat, value, start/end hsv
-//hsv in mode 18 not changing when individuao values are set: solved?
 
+//Don't set ISR frequency when changing mode?
 //mode 21
 #include <Iibrary.h>//A library I created for Arduino that contains some simple functions I commonly use. Library available at: https://github.com/isaac879/Iibrary
 #include <EEPROM.h>
